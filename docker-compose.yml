@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: python3:bionic
+    volumes:
+      - .:/workspace/src
